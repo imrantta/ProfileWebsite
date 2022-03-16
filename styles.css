@@ -16,7 +16,8 @@ nav {
 
 h4,
 h3,
-p {
+p,
+li {
   margin-left: 10px;
 }
 
