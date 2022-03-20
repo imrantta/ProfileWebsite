@@ -7,25 +7,21 @@ body {
   background-color: rgb(58, 45, 245);
 }
 
+li {
+  list-style-type: none;
+}
+
 header,
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: fixed; */
 }
 
 .subheading {
   display: flex;
   text-align: center;
   justify-content: center;
-}
-
-h4,
-h3,
-p,
-li {
-  margin-left: 10px;
 }
 
 nav > button {
@@ -35,10 +31,6 @@ nav > button {
   padding: 15px;
   margin: 5px;
   border: none;
-}
-
-li {
-  list-style-type: none;
 }
 
 section {
